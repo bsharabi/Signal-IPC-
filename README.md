@@ -27,7 +27,7 @@ SIGKILL   |  9                          | Terminate	            | Kill (cannot b
 SIGPIPE   |  13	                        | Terminate	            | Write on a pipe with no one to read it            | 
 SIGPOLL   |  N/A	                    | Terminate	            | Pollable event                                    | 
 SIGPROF   |  N/A	                    | Terminate	            | Profiling timer expired                           | 
-SIGQUIT   |  3                          | =Terminate (core dump | )	Terminal quit signal                            | 
+SIGQUIT   |  3                          | Terminate (core dump)| 	Terminal quit signal                            | 
 SIGSEGV   |  11	                        | Terminate (core dump) | Invalid memory reference                          | 
 SIGSTOP   |  N/A	                    | Stop	                | Stop executing (cannot be caught or ignored)      | 
 SIGSYS    |  N/A	                    | Terminate (core dump) | Bad system call                                   | 
